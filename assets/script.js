@@ -4,9 +4,8 @@ function envio() {
         if (inputs[i].checked)
             alert(inputs[i].value)
     }
-}
+};
 
-let btnH = document.getElementById('btnH')
 
 
 
