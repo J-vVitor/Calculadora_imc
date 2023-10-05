@@ -24,11 +24,11 @@
                 <p>Sexo:</p>
             
                 <label for="masculino" class="man">
-                    <input type="radio" name="sexo" id="masculino"value="Masculino">Homem
+                    <input type="radio" name="sexo" id="masculino"value="Masculino" onclick="btnMasculino()">Homem
                 </label>
                         
                 <label for="feminino" class="female">
-                    <input type="radio" name="sexo" id="feminino"value="feminino">Mulher
+                    <input type="radio" name="sexo" id="feminino"value="feminino" onclick="btnFeminino()">Mulher
                 </label>
             </div>
         </div>
@@ -41,7 +41,7 @@
                 </div>
 
                 <div><label for="altura">
-                        <p>Altura</p><input type="text" name="" id="altura" placeholder="Ex: 170">
+                        <p>Altura</p><input type="text" name="" id="altura" placeholder="Ex: 1.70">
                     </label>
                 </div>
 
@@ -53,8 +53,11 @@
             <button type="submit" onclick="envio()" id="btnEnvio">Calcular</button>
         </div>
 
-        <div>
-            
+        <div id="resultado">
+            <label for="">Idade:</label><p id="idadeT"></p>
+            <label for="">Altura:</label><p id="alturaT"></p>
+            <label for="">Peso:</label><p id="pesoT"></p>
+            <label for="">Imc:</label><p id="imcT"></p>
         </div>
     </div>
 
