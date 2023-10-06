@@ -54,10 +54,40 @@
         </div>
 
         <div id="resultado">
-            <label for="">Idade:</label><p id="idadeT"></p>
-            <label for="">Altura:</label><p id="alturaT"></p>
-            <label for="">Peso:</label><p id="pesoT"></p>
-            <label for="">Imc:</label><p id="imcT"></p>
+            <table>
+                <thead>
+                    <tr>
+                        <td>IMC</td>
+                        <td>Classificação</td>
+                    </tr>
+                    <tbody>
+                        <tr class="par" id="magreza">
+                            <td>Menor que 18,5</td>
+                            <td>Magreza</td>
+                        </tr>
+                        <tr id="normal">
+                            <td>18,5 a 24,9</td>
+                            <td>Normal</td>
+                        </tr>
+                        <tr class="par" id="Sobrepeso">
+                            <td>25 a 29,9</td>
+                            <td>Sobrepeso</td>
+                        </tr>
+                        <tr id="ob1">
+                            <td>30 a 34,9</td>
+                            <td>Obesidade grau I</td>
+                        </tr>
+                        <tr class="par" id="ob2">
+                            <td>35 a 39,9</td>
+                            <td>Obesidade grau II</td>
+                        </tr>
+                        <tr id="ob3">
+                            <td>Maior que 40</td>
+                            <td>Obesidade grau III</td>
+                        </tr>
+                    </tbody>
+                </thead>
+            </table>
         </div>
     </div>
 
