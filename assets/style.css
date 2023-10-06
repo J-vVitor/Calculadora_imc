@@ -19,7 +19,7 @@ header{
     border: 1px solid #36b1df;
     box-shadow: 1px 1px 4px #36b1df;
     width: 400px;
-    margin: 10px auto;
+    margin: auto;
 }
 
 
@@ -42,7 +42,7 @@ p{
 #caixaCalculadora{
     width: 400px;
     height: 80px;
-    margin:10px auto;
+    margin: auto;
     text-align: center;
     padding: 20px;
 }
@@ -115,6 +115,11 @@ p{
     margin:10px 60px;
 }
 
+#info label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
 input{
     width: 100px;
     height: 30px;
@@ -167,4 +172,12 @@ td{
 
 thead td{
     border-bottom: 1px solid lightgrey;
+}
+
+
+img{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 400px;
 }

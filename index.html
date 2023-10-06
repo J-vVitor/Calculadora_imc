@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Poppins:wght@600&display=swap"
         rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -37,21 +38,26 @@
                 <div>
                     <label for="idade">
                         <p>Idade</p><input type="text" name="" id="idade" placeholder="Ex: 36">
+                        anos
                     </label>
                 </div>
 
                 <div><label for="altura">
                         <p>Altura</p><input type="text" name="" id="altura" placeholder="Ex: 1.70">
+                        cm
                     </label>
                 </div>
 
                 <div><label for="peso">
                         <p>Peso</p><input type="text" name="" id="peso" placeholder="Ex: 68.8">
+                        kg
                     </label>
                 </div>
             </div>
             <button type="submit" onclick="envio()" id="btnEnvio">Calcular</button>
         </div>
+
+            <Label onclick="recarregar()"> <img src="assets/img/recarregar.png" alt=""></Label>
 
         <div id="resultado">
             <table>
@@ -69,7 +75,7 @@
                             <td>18,5 a 24,9</td>
                             <td>Normal</td>
                         </tr>
-                        <tr class="par" id="Sobrepeso">
+                        <tr class="par" id="sobrepeso">
                             <td>25 a 29,9</td>
                             <td>Sobrepeso</td>
                         </tr>
